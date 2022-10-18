@@ -1,0 +1,30 @@
+.characteristic {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.characteristic::before {
+  content: '';
+  width: calc(100% - 30px);
+  height: 1px;
+  background-color: #e5e5e5;
+  left: 14px;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.characteristic-container {
+  width: 100%;
+}
+
+.characteristic-container-item__img {
+  opacity: .5;
+  transition: all 0.4s;
+}
+
+.characteristic-container-item__img:hover {
+  opacity: 1;
+  transition: all 0.4s;
+}

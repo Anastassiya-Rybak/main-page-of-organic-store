@@ -1,0 +1,53 @@
+.customer-slider {
+  flex: 1;
+  max-width: calc(50% - 36px);
+}
+
+.customer-img {
+  flex: 1;
+  overflow: hidden;
+  max-height: 385px;
+  max-width: calc(50% - 36px);
+}
+
+.customer-img__img {
+  width: 100%;
+}
+
+.swiper {
+  margin: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0a472e;
+}
+
+.customer-slider__icon {
+  flex: 1;
+  margin-right: 36px;
+}
+
+.customer-slider__desc {
+  flex: 8;
+}
+
+.customer-slider__title {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0a472e;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.customer-slider__text {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+.customer-slider__author {
+  margin-top: 25px;
+  font-size: .875rem;
+  color: #aaa;
+  font-weight: 400;
+}

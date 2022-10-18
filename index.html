@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshio</title>
+    <script src="https://kit.fontawesome.com/fe9b72a4c2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+    <header>
+        <div class="header-info conteiner">
+            <div>
+                <p>FREE express international delivery + EASY returns</p>
+            </div>
+            <div class="header-info-links">
+                <a href="#">About</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="header-menu conteiner">
+            <div class="header-burger-menu">
+                <i class="fa-solid fa-bars"></i>               
+            </div>
+            <div class="headerlogo">
+                <img src="images/freshio-logo.jpg" alt="">
+            </div>
+            <div class="search-block">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Enter Keyword">
+                    <button>Search</button>
+                </div>
+            </div>
+            <div class="header-icons">
+                <span onclick="login()" id="user-icon"><img src="images/user.png" alt=""></span>
+                <span><img src="images/love.png" alt=""></span>
+                <span><img src="images/shopping-basket.png" alt=""></span>
+            </div>
+        </div>
+        <div class="nav conteiner">
+            <div class="nav-left">
+                <i class="fa-solid fa-bars"></i>
+                <span>Shop by Department</span>
+            </div>
+            <div class="nav-right">
+                <a href="">Home</a><i class="fa-solid fa-angle-down"></i>
+                <a href="">Shop</a><i class="fa-solid fa-angle-down"></i>
+                <a href="">Pages</a><i class="fa-solid fa-angle-down"></i>
+                <a href="">Block</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+    </section>
+    <section class="modal-windows">
+        <div class="modal-window-login " id="modal-window-login">
+            <div class="modal-window-login-content">
+                <button onclick="closeModal()" id="close1">x</button>
+                <input type="text" name="" id="" placeholder="Enter email">
+                <input type="password" name="" id="" placeholder="Enter password">
+                <button>Sign In</button>
+            </div>    
+        </div>
+    </section>
+    <section class="main section">
+        <div class="main-inner conteiner">
+            <div class="main-slider">
+                <div class="main-slider-item">
+                    <img src="images/main-1.jpg" alt="">
+                    <h4>Fresh and Tasty</h4>
+                    <h1>Farm Market Organik Shop</h1>
+                    <div class="shop-link">
+                        <a href="">Shop Now
+                            <img src="images/arrow-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-arrows">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-info">
+                <div class="main-info-item1">
+                    <h1>Discover <br>
+                    real Organics <br>
+                    Flovers</h1>
+                    <div class="shop-link">
+                        <a href="">Shop Now
+                            <img src="images/arrow-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="main-info-item2">
+                    <h4>Summer Sale</h4>
+                    <h3>50% OFF</h3>
+                    <p>Vitamins , Supplements and Herbss</p>
+                    <div class="shop-button">
+                        <a href="">Shop Now
+                            <img src="images/arrow-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section"> 
+        <div class="services-inner conteiner">
+            <div class="service-item">
+                <img src="images/service1.webp" alt="">
+                <div class="serv-info">
+                    <h4>Curated Products</h4>
+                    <p>from Handpicked Sellers</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/service2.webp" alt="">
+                <div class="serv-info">
+                    <h4>Handmade</h4>
+                    <p>Made with passion by 300+ curators across the country.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/service3.webp" alt="">
+                <div class="serv-info">
+                    <h4>100% Natural</h4>
+                    <p>Eat local, consume local, closer to nature.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="images/service4.webp" alt="">
+                <div class="serv-info">
+                    <h4>Shipping</h4>
+                    <p>Across West & East India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="featured conteiner">
+            <div class="feature-head">
+                <div class="fea-head-left">
+                    <div class="fea-circle"></div>
+                    <h2>Featured Products</h2>
+                </div>
+                <div class="fea-head-right">
+                    <a href="">Shop All
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="feature-items slider-1">
+                <div class="feature-item ">
+                    <img src="images/feature1.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Grassfed Organic Turmeric Superghee</h3>
+                    <p>$11.90</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item ">
+                    <img src="images/feature2.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Organic High-Curcumin Turmeric Powder</h3>
+                    <p>$11.90</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item ">
+                    <img src="images/feature3.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Grassfed Organic Turmeric Superghee</h3>
+                    <p>$15</p>
+                    <a class="item-button" href="">Add to Curated
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item ">
+                    <img src="images/feature4.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Frontier Co-Op Organic Adobo Seasoning Blend</h3>
+                    <p>$29</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item ">
+                    <img src="images/feature2.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Organic High-Curcumin Turmeric Powder</h3>
+                    <p>$11.90</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="shop conteiner">
+            <div class="shop-left">
+                    <div class="shop-left-discription">
+                        <h3>
+                            <a href="">
+                                Fruits & <br>
+                                Vegetables
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="wrap-hidden-left-1"></div>
+                    <div class="wrap-hidden-left-2"></div>
+            </div>
+            <div class="shop-center">
+                <div class="dairy-bread">
+                    <div class="shop-center-1-discription">
+                        <h3>
+                            <a href="">
+                                Dairy Bread & <br>
+                                Eggs
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="wrap-hidden-center-top-1"></div>
+                    <div class="wrap-hidden-center-top-2"></div>
+                </div>
+                <div class="package-foods">
+                        <div class="shop-center-2-discription">
+                            <h3>
+                                <a href="">
+                                    Package <br>
+                                    Foods
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="wrap-hidden-center-bottom-first-1"></div>
+                        <div class="wrap-hidden-center-bottom-first-2"></div>    
+                </div>
+                <div class="baverages">
+                        <div class="shop-center-3-discription">
+                            <h3>
+                                <a href="">
+                                    Baverages
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="wrap-hidden-center-bottom-second-1"></div>
+                        <div class="wrap-hidden-center-bottom-second-2"></div>    
+                </div>
+            </div>
+            <div class="shop-right">
+                    <div class="shop-right-discription">
+                        <h3>
+                            <a href="">
+                                Health & <br>
+                                Wellness
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="wrap-hidden-right-1"></div>
+                    <div class="wrap-hidden-right-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="featured conteiner">
+            <div class="feature-head">
+                <div class="fea-head-left">
+                    <div class="fea-circle"></div>
+                    <h2>Best Seller</h2>
+                </div>
+                <div class="fea-head-right">
+                    <a href="">Shop All
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="feature-items">
+                <div class="feature-item">
+                    <img src="images/feature1.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Grassfed Organic Turmeric Superghee</h3>
+                    <p>$11.90</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="images/feature2.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Organic High-Curcumin Turmeric Powder</h3>
+                    <p>$11.90</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="images/feature3.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Grassfed Organic Turmeric Superghee</h3>
+                    <p>$15</p>
+                    <a class="item-button" href="">Add to Curated
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="images/feature4.jpg" alt="">
+                    <a href="">Home</a>
+                    <h3>Frontier Co-Op Organic Adobo Seasoning Blend</h3>
+                    <p>$29</p>
+                    <a class="item-button" href="">Add to Cart
+                        <img src="images/arrow-right.svg" alt="">
+                    </a>
+                    <div class="feature-icons">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-shuffle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="people conteiner d-flex justify-between">
+            <div class="people-img">
+                <img class="people-img__img" src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn6.jpg?v=1630131658" alt="woman-with-apples" >
+            </div>
+            <div class="people-desc">
+                <h3 class="people-desc__title">A shop for good people by good people</h3>
+                <p class="people-desc__text">
+                    Buy natural, sustainable and chemicalfree products from local sellers across the country.
+                </p>
+                <p class="people-desc__text">
+                    We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread goodness. We are a democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.
+                </p>
+                <a href="#" class="people-desc__button">
+                    Store Location
+                    <img class="people-desc__icon" src="images/arrow-right.svg" alt="arrow-right">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="customer conteiner d-flex justify-between">
+            <div class="swiper customer-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide d-flex">
+                        <div class="customer-slider__icon">
+                            <img src="https://demo73.leotheme.com/prestashop/at_freshio/themes/freshio/assets/img/modules/appagebuilder/images/freshio_h2_image_kep.png" alt="quotes" />
+                        </div>
+                        <div class="customer-slider__desc">
+                            <h3 class="customer-slider__title">Why customer love us</h3>
+                            <p class="customer-slider__text">
+                                “I have been a regular customer in Freshio and the reason is I get a variety of organic products and it gives me many options to choose from and the Quality of the produce is good.”
+                            </p>
+                            <p class="customer-slider__author">Pragya - Bellandur Store</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <div class="customer-slider__icon">
+                            <img src="https://demo73.leotheme.com/prestashop/at_freshio/themes/freshio/assets/img/modules/appagebuilder/images/freshio_h2_image_kep.png" alt="quotes" />
+                        </div>
+                        <div class="customer-slider__desc">
+                            <h3 class="customer-slider__title">Why customer love us</h3>
+                            <p class="customer-slider__text">
+                                “I have been a regular customer in Freshio and the reason is I get a variety of organic products and it gives me many options to choose from and the Quality of the produce is good.”
+                            </p>
+                            <p class="customer-slider__author">Pragya - Bellandur Store</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide d-flex">
+                        <div class="customer-slider__icon">
+                            <img src="https://demo73.leotheme.com/prestashop/at_freshio/themes/freshio/assets/img/modules/appagebuilder/images/freshio_h2_image_kep.png" alt="quotes" />
+                        </div>
+                        <div class="customer-slider__desc">
+                            <h3 class="customer-slider__title">Why customer love us</h3>
+                            <p class="customer-slider__text">
+                                “I have been a regular customer in Freshio and the reason is I get a variety of organic products and it gives me many options to choose from and the Quality of the produce is good.”
+                            </p>
+                            <p class="customer-slider__author">Pragya - Bellandur Store</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="customer-img">
+                <img class="customer-img__img" src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn7.jpg?v=1630131658" alt="man-with-potatoes" />
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="characteristic conteiner d-flex">
+            <div class="swiper-characteristic characteristic-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>
+                    <div class="swiper-slide characteristic-container-item">
+                        <img class="characteristic-container-item__img" src="https://demo73.leotheme.com/prestashop/at_freshio/img/m/4-manu_default.jpg" alt="eat-healthy" />
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="contact conteiner d-flex justify-between">
+            <div class="contact-item d-flex">
+                <div class="contact-item-icon headphone"></div>
+                <div class="contact-item-desc">
+                    <h4 class="contact-item__title">Phone Support</h4>
+                    <p class="contact-item__notion">Call us 24/7</p>
+                    <a class="contact-item__tel" href="tel:(1800)-88-66-991">(1800)-88-66-991</a>
+                    <p class="contact-item__text">contact@example.com</p>
+                </div>
+            </div>
+            <div class="contact-item d-flex">
+                <div class="contact-item-icon email"></div>
+                <div class="contact-item-desc">
+                    <h4 class="contact-item__title">Daily Updates</h4>
+                    <p class="contact-item__notion">subscribe us</p>
+                    <p class="contact-item__text">Sign up and get a voucher of worth $250.00</p>
+                        <form method="POST">
+                            <input name="email" placeholder="Email address" type="email" class="contact-item__input"/>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="footer-contacts conteiner">
+            <div class="contact-column">
+                <h3>STORE LOCATION</h3>
+                <p>9066 Green Lake Drive Chevy <br>
+                    Chase, MD 20815 </p>
+                <p class="schedule-day">Monday - Saturday:</p>
+                <p>8:00 am - 4:00pm</p>
+                <p class="schedule-day">Sunday:</p>
+                <p>9:00 am - 5:00pm</p>                                        
+            </div>
+            <div class="contact-column">
+                <h3>Information</h3>
+                <p>About us</p>
+                <p>Blog</p>
+                <p>Check out</p>
+                <p>Contact</p>
+                <p>service</p>
+            </div>
+            <div class="contact-column">
+                <h3>My Account</h3>
+                <p>My Account</p>
+                <p>Contact</p>
+                <p>Shopping cart</p>
+                <p>Shop</p>
+            </div>
+            <div class="contact-column">
+                <h3>CATEGORIES</h3>
+                <p>Fruits & Vegetables</p>
+                <p>Dairy Products</p>
+                <p>Package Foods</p>
+                <p>Beverage</p>
+                <p>Beverage</p>
+            </div>
+            <div class="contact-column">
+                <h3>ACCEPT PAYMENT</h3>
+                <img src="images/contact-img.webp" alt="">
+                <h3>FOLLOW US</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="section">
+        <p>Copyright © 2021 <a>Freshio</a> . All Rights Reserved.</p>
+    </footer>
+    <script>
+        new Swiper('.swiper', {
+            direction: 'horizontal',
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+        new Swiper('.swiper-characteristic', {
+            direction: 'horizontal',
+            slidesPerView: 6,
+            spaceBetween: 12,
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>

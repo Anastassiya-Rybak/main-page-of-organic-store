@@ -1,0 +1,129 @@
+.feature-head {
+    display: flex;
+    justify-content:space-between ;
+}
+.fea-circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #bac34e;
+}
+.fea-head-left {
+    display: flex;
+    align-items: center;
+}
+.fea-head-left h2 {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #0a472e;
+}
+.fea-head-right a {
+    display: flex;
+    align-items: center;
+    color: #bac34e;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1pz solid #bac34e;
+}
+.fea-head-right img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    filter: invert(70%) sepia(5%) saturate(4190%) hue-rotate(25deg) brightness(111%) contrast(77%);
+}
+.feature-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.feature-item {
+    width: calc(25% - 36px);
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+.feature-item img {
+    width: 100%;
+}
+.feature-item a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #bac34e;
+    text-decoration: none;
+    /* max-width: 10px 0; */
+    margin: 30px 0 10px;
+}
+.feature-item h3 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.feature-item p {
+    text-align: center;
+    color: #bac34e;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #bac34e;
+    width: 80px;
+    margin: 0 auto 15px;
+}
+.item-button {
+    display: flex;
+    align-items: center;
+    color: #000 !important;
+    transform: uppercase;
+    font-weight: 500;
+}
+.item-button img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+.feature-item h3:hover {
+    color: #bac34e;
+    transition: .3s;
+}
+.fea-head-right:hover img {
+    margin-left: 10px;
+    transition: .3s;
+}
+.item-button:hover {
+    color: #bac34e;
+    transition: .3s;
+}
+.item-button:hover img{
+    filter: invert(70%) sepia(5%) saturate(4190%) hue-rotate(25deg) brightness(111%) contrast(77%);
+    transition: .3s;
+    margin-left: 10px;
+}
+.feature-icons {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+.feature-icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    color: #0a472e;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.feature-item:hover .feature-icons {
+    opacity: 1;
+    top: 220px;
+    transition: .4s;
+}

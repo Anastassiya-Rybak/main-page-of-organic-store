@@ -1,0 +1,33 @@
+@media (max-width:990px) {
+    header {
+        display: none;
+    }
+    .search-block {
+        display: none;
+    }
+    .header-icons span:not(:last-child) {
+        display: none;
+    }
+    .header-burger-menu {
+        display: block;
+    }
+    .nav-right {
+        display: none;
+    }
+    .main-inner {
+        flex-wrap: wrap;
+    }
+    .main-slider {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-info-item1, .main-info-item2 {
+        width: 45%;
+        height: 220px;
+    }
+}

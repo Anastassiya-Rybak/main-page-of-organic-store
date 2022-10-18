@@ -1,0 +1,38 @@
+.services-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 40px;
+    width: 23%;
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+}
+.serv-info {
+    margin-left: 20px;
+}
+.serv-info h4{
+    color: #0a472e;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.serv-info p {
+    color: #555;
+    font-size: 12px;
+}
+.service-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #0a472e;
+}
+.service-item:hover::before {
+    width: 100%;
+    transition: .4s;
+}
